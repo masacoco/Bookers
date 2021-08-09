@@ -89,10 +89,9 @@ td {
 #error_explanation {
   width: 468px;
   height: 134px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
+  border: 2px solid #CC0000;
+  padding: 7px 7px 0px;
+  margin: 0px 0px 20px;
   background-color: #f0f0f0;
 }
 #error_explanation h2 {
@@ -101,13 +100,14 @@ td {
   padding: 5px 5px 5px 15px;
   font-size: 12px;
   margin: -7px -7px 0px;
-  background-color: #c00;
-  color: #fff;
+  background-color: #CC0000;
+  color: #FFFFFF;
 }
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
 }
+
 label {
   display: block;
 }
